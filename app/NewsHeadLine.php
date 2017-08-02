@@ -7,6 +7,11 @@ class NewsHeadLine extends Model {
 
     protected $table = 'newsheadline';
 
-    protected $fillable = ['NewsTitle', 'NewsReporterName', 'NewsReportingArea', 'NewsCategory', 'NewsSmallDescription', 'NewsDetailsUrl'];
+    protected $fillable = [	'NewsTitle', 
+    						'NewsReporterName', 
+    						'NewsReportingArea', 
+    						'NewsCategory', 
+    						'NewsSmallDescription', 
+    						'NewsDetailsUrl'];
 
 }
